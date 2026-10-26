@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Temporary QR image & local credentials
+login_qr_temporary.png
+cookies.json
+*cookie*.json
+token.json
+session.json
+
+# Exported personal chat data & media
+netease_dm_*/
+media/
+downloads/
+output/
+*_output/
+raw_messages.json
+partial_messages.jsonl
+chat_history.html
+chat_history.txt
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
